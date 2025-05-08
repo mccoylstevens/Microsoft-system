@@ -1,51 +1,47 @@
-# Microsoft-system
-
-![Build](https://github.com/mccoylstevens/Microsoft-system/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
-
-## Template ToDo list
-- [x] Create a new [IntelliJ Platform Plugin Template][template] project.
-- [ ] Get familiar with the [template documentation][template].
-- [ ] Adjust the [pluginGroup](./gradle.properties) and [pluginName](./gradle.properties), as well as the [id](./src/main/resources/META-INF/plugin.xml) and [sources package](./src/main/kotlin).
-- [ ] Adjust the plugin description in `README` (see [Tips][docs:plugin-description])
-- [ ] Review the [Legal Agreements](https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html?from=IJPluginTemplate).
-- [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate) for the first time.
-- [ ] Set the `MARKETPLACE_ID` in the above README badges. You can obtain it once the plugin is published to JetBrains Marketplace.
-- [ ] Set the [Plugin Signing](https://plugins.jetbrains.com/docs/intellij/plugin-signing.html?from=IJPluginTemplate) related [secrets](https://github.com/JetBrains/intellij-platform-plugin-template#environment-variables).
-- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html?from=IJPluginTemplate).
-- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
-
-<!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
-
-This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be extracted by the [Gradle](/build.gradle.kts) during the build process.
-
-To keep everything working, do not remove `<!-- ... -->` sections. 
-<!-- Plugin description end -->
-
-## Installation
-
-- Using the IDE built-in plugin system:
-  
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "Microsoft-system"</kbd> >
-  <kbd>Install</kbd>
-  
-- Using JetBrains Marketplace:
-
-  Go to [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID) and install it by clicking the <kbd>Install to ...</kbd> button in case your IDE is running.
-
-  You can also download the [latest release](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID/versions) from JetBrains Marketplace and install it manually using
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
-
-- Manually:
-
-  Download the [latest release](https://github.com/mccoylstevens/Microsoft-system/releases/latest) and install it manually using
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
-
-
 ---
-Plugin based on the [IntelliJ Platform Plugin Template][template].
+icon: hand-wave
+---
 
-[template]: https://github.com/JetBrains/intellij-platform-plugin-template
-[docs:plugin-description]: https://plugins.jetbrains.com/docs/intellij/plugin-user-experience.html#plugin-description-and-presentation
+# README
+
+## Atari ST source code repository
+
+### What is it?
+
+A repository collecting source code for the Atari ST, STE, Mega ST, Mega STE, STBook, STacy, TT030 and Falcon030 ([Wikipedia link](https://en.wikipedia.org/wiki/Atari_ST)).
+
+### How to get it?
+
+Just clone the repository. Make sure to init the submodules while cloning (`--recurse-submodules`) so that you get the code from linked repositories.
+
+### How to use the code on this archive?
+
+TODO (tl;dr: get some dev tools and dig in!)
+
+### How can I contribute?
+
+1. Upload your source somewhere and raise an issue
+2. E-mail the maintainer (ggnkua \[at] gmail \[dot] com) with archive(s) of files and optionally the location of the archive the files should be placed
+3. Fork the repository and create a pull request (note that the maintainer has no experience with this and is likely to mess up things. But hey we can try!)
+
+## Verified to compile
+
+### ASM
+
+### C
+
+| Location                   | Comment                             |
+| -------------------------- | ----------------------------------- |
+| `C/Alan Pratt/Gulam`       | Compiles with Mark Williams C 3.0.5 |
+| `C/Michael Thänitz/7UP_PD` | Compiles with Pure C                |
+| `C/Markus Kohm/7UP_PD`     | Compiles with Pure C                |
+
+### GFA Basic
+
+### Omikron Basic
+
+### Pascal
+
+### STOS
+
+### Various
